@@ -6,7 +6,7 @@ curl -XPOST -u client:secret "http://localhost:9000/oauth/token?grant_type=passw
 curl -XPOST -u resourceserver:resourceserversecret "http://localhost:9000/oauth/check_token?token="
 
 3.
-curl -H "Authorization: bearer " "http://localhost:9090/hello"
+curl -H "Authorization: Bearer " "http://localhost:9090/hello"
 
 
 
